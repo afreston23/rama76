@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .content {
+    box-sizing: border-box;
+    padding: 16px;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 1350px;
+    background-color:white;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ #comment{
+   width: 70%;
+ }
+ .commentbox{
+   box-sizing: content-box;
+   background-color:  whitesmoke;
+   margin: 15px;
+ }
+ .textComment{
+   padding: 20px;
+ }
+ .editDelete{
+   font-size: 10px;
+   float: right;
+   float: inline-start;
+   color: lightskyblue;
+ }
+ .userStuff{
+   display: flex;
+  flex-direction: column;
+ }
+  .displayNameSize{
+    font-size: small;
+    padding-bottom: 5px;
+  }
+  .header{
+    padding: 10px 16px;
+    box-sizing:border-box;
+    position: sticky;
+    background-color: white;
+    color: black;
+  }
+  
